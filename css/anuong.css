@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-image: url('../images/nenanuong.jpg');
+}
+/* Header/Blog Title */
+.header{
+    
+    padding: 10px;
+    text-align: center;
+    color: #054105;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../images/banner2.jpg');
+    background-size: 100%;
+}
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    font-size: 20px;
+}
+.logo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+/* Style the top navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color:  #ffffff;
+}
+/* Định dạng link điều hướng */
+.topnav a{
+    float: left;
+    display: block;
+    color: #054105;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover{
+    background-color: #f7d58b;
+    color: white;
+}
+.column{
+    width: 33%;
+    float: left;
+}
+.column:hover{
+    transform: scale(0.8,0.8);
+    box-shadow: 10px 10px 10px 10px #ffffff;
+}
+img:hover{
+    box-shadow: 5px 5px 5px 5px #ffffff;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: large;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+}
+.san-pham img{
+    max-width: 60%;
+    height: 30%;
+}
+.san-pham .gia{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: rgb(253, 8, 8);
+}
+.marquee{
+    width: 200px;
+    height: 150px;
+}
+
+/* Footer */
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #1d5c17;
+    margin-top: 10px;
+}
+.footer1{
+    float: left;
+    width: 30%;
+    font-size: x-large;
+}
+.footer2{
+    float: left;
+    width: 38%;
+}
+.footer3{
+    float: right;
+    width: 30%;
+}
+.footer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.iframe{
+    width: 250px;
+    height: 150px;
+}
+.img{
+    width: 50%;
+    height: 30%;
+}
+
+

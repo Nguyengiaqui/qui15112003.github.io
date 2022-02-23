@@ -1,0 +1,109 @@
+body{
+    background-image: url('../images/nenn.jpg');
+    color: aliceblue;
+}
+/* Header/Blog Title */
+.header{
+    padding: 10px;
+    text-align: center;
+    color: #201492;
+    background-color: rgb(207, 248, 205);
+    background-image: url('../images/banner.jpg');
+}
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    font-size: 20px;
+}
+.logo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+/* Style the top navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color:  #090caf;
+}
+/* Định dạng link điều hướng */
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover{
+    background-color: #f7d58b;
+    color: white;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-decoration-break: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+/* Footer */
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #abd7f5;
+    margin-top: 10px;
+    color: #1106a5;
+}
+.footer1{
+    float: left;
+    width: 30%;
+    font-size: x-large;
+}
+.footer2{
+    float: left;
+    width: 38%;
+}
+.footer3{
+    float: right;
+    width: 30%;
+}
+.footer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.img{
+    width: 50%;
+    height: 30%;
+}
